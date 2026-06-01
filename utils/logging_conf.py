@@ -31,7 +31,7 @@ def base_logger(logger: getLogger):
     logger.setLevel(logging.DEBUG)
 
     # Declare handlers
-    file_handler = logging.FileHandler('logs/price-calculator.log')
+    file_handler = logging.FileHandler('logs/url-shortner.log')
     stream_handler = logging.StreamHandler()
 
     # Determine and set specific formatter for file handler
