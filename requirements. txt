@@ -1,0 +1,13 @@
+# ============================================================================
+# Runtime Dependencies
+# ============================================================================
+# This file contains only packages required to run the application in
+# production environments.
+#
+# Examples:
+# Django==5.2.1
+# requests==2.32.3
+# pydantic==2.11.0
+#
+# Add application/runtime dependencies below.
+# ============================================================================
