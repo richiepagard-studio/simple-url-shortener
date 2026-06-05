@@ -1,12 +1,17 @@
 import re
 import string
 import itertools
+from typing import Optional
 
 class ShortenerLink(object):
     '''
     This class is shortener your url
     '''
-    def __init__(self, url: str, domain_name: str = None) -> str:
+    def __init__(
+        self,
+        url: str,
+        domain_name: Optional[str] = None
+    ) -> None:
         self.url = url
         self.domain_name = domain_name
         self.generator = self.shortener()

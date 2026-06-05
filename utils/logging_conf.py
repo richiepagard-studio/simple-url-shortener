@@ -8,7 +8,6 @@ logger already has any.
 
 import os
 import logging
-from logging import getLogger
 
 from colorama import Fore, Style, init
 
@@ -20,7 +19,7 @@ init(autoreset=True)
 os.makedirs('logs', exist_ok=True)
 
 
-def base_logger(logger: getLogger):
+def base_logger(logger: logging.Logger) -> None:
     """Apply standard handlers to ``logger``.
 
     Sets level to DEBUG and adds a WARNING+ file handler and a colored
