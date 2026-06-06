@@ -8,7 +8,6 @@ logger already has any.
 
 import os
 import logging
-import logging
 
 from colorama import Fore, Style, init
 
